@@ -6,6 +6,7 @@ Welcome to the Bakery Delivery Frontend! This project is a user-facing platform 
 
 - [Bakery Delivery Frontend](#bakery-delivery-frontend)
   - [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
   - [Introduction](#introduction)
   - [Project Architecture](#project-architecture)
   - [Getting Started](#getting-started)
@@ -16,7 +17,12 @@ Welcome to the Bakery Delivery Frontend! This project is a user-facing platform 
   - [Technologies Used](#technologies-used)
   - [Contributing](#contributing)
   - [Acknowledgments](#acknowledgments)
+  - [Special thanks to the contributors who have made this project possible.](#special-thanks-to-the-contributors-who-have-made-this-project-possible)
   - [Project Structure](#project-structure)
+
+## Demo
+
+[![Demo website](bakery-delivery-frontend.vercel.app)]
 
 ## Introduction
 
@@ -46,7 +52,7 @@ Before setting up the project, ensure you have the following tools installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/bakery-delivery-frontend.git
+   git clone https://github.com/Charlesahuang/bakery-delivery-frontend.git
    cd bakery-delivery-frontend
    ```
 
@@ -85,9 +91,7 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 ## Acknowledgments
 
-Special thanks to the contributors who have made this project possible.
-
----
+## Special thanks to the contributors who have made this project possible.
 
 ## Project Structure
 
