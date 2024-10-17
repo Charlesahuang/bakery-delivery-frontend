@@ -1,0 +1,84 @@
+/* 定义登录页面的样式 */
+.login {
+  position: absolute; /* 绝对定位，相对于最近的已定位祖先元素 */
+  z-index: 1; /* 设置元素的堆叠顺序，值越大越靠前 */
+  width: 100%; /* 宽度为父元素的100% */
+  height: 100%; /* 高度为父元素的100% */
+  background-color: #00000090; /* 背景颜色为半透明黑色 */
+  display: grid; /* 使用网格布局 */
+}
+
+/* 定义登录容器样式 */
+.login-container {
+  place-self: center; /* 在网格中居中对齐 */
+  width: max(23vw, 330px); /* 宽度为视口宽度的23%或330px，取较大值 */
+  color: #808080; /* 字体颜色为灰色 */
+  background-color: white; /* 背景颜色为白色 */
+  display: flex; /* 使用弹性布局 */
+  flex-direction: column; /* 主轴方向为垂直方向 */
+  gap: 25px; /* 子元素之间的间距为25px */
+  padding: 25px 30px; /* 内边距为25px上下，30px左右 */
+  border-radius: 8px; /* 边框圆角为8px */
+  font-size: 14px; /* 字体大小为14px */
+  animation: fadeIn 0.5s; /* 应用淡入动画，持续0.5秒 */
+}
+
+/* 定义登录标题样式 */
+.login-title {
+  display: flex; /* 使用弹性布局 */
+  justify-content: space-between; /* 子元素在主轴上的对齐方式为两端对齐 */
+  align-items: center; /* 子元素在交叉轴上的对齐方式为居中对齐 */
+  color: black; /* 字体颜色为黑色 */
+}
+
+/* 定义登录标题中图片的样式 */
+.login-title img {
+  width: 16px; /* 图片宽度为16px */
+  cursor: pointer; /* 鼠标悬停时显示手型指针 */
+}
+
+/* 定义登录输入框的样式 */
+.login-inputs {
+  display: flex; /* 使用弹性布局 */
+  flex-direction: column; /* 主轴方向为垂直方向 */
+  gap: 20px; /* 子元素之间的间距为20px */
+}
+
+/* 定义登录输入框中输入框的样式 */
+.login-inputs input {
+  outline: none; /* 点击输入框时，不显示轮廓 */
+  border: 1px solid #c9c9c9; /* 边框为1px实线，颜色为#c9c9c9 */
+  padding: 10px; /* 内边距为10px */
+  border-radius: 4px; /* 边框圆角为4px */
+}
+
+/* 定义登录容器中按钮的样式 */
+.login-container button {
+  border: none; /* 不显示边框 */
+  padding: 10px; /* 内边距为10px */
+  border-radius: 4px; /* 边框圆角为4px */
+  color: white; /* 字体颜色为白色 */
+  background-color: #784420; /* 背景颜色为#784420 */
+  font-size: 15px; /* 字体大小为15px */
+  cursor: pointer; /* 鼠标悬停时显示手型指针 */
+}
+
+/* 定义登录条件样式 */
+.login-condition {
+  display: flex; /* 使用弹性布局 */
+  align-items: start; /* 子元素在交叉轴上的对齐方式为起始对齐 */
+  gap: 8px; /* 子元素之间的间距为8px */
+  margin-top: -15px; /* 上边距为-15px */
+}
+
+/* 定义登录条件中输入框的样式 */
+.login-condition input {
+  margin-top: 5px; /* 上边距为5px */
+}
+
+/* 定义登录页面中段落中span标签的样式 */
+.login p span {
+  color: #784420; /* 字体颜色为#784420 */
+  font-weight: 500; /* 字体加粗 */
+  cursor: pointer; /* 鼠标悬停时显示手型指针 */
+}

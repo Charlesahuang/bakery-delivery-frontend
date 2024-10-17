@@ -1,0 +1,128 @@
+/* 定义导航栏的样式 */
+.navbar {
+  padding: 20px 0px; /* 设置导航栏的上下内边距 */
+  display: flex; /* 使用弹性布局 */
+  justify-content: space-between; /* 子元素在主轴上的对齐方式 */
+  align-items: center; /* 子元素在交叉轴上的对齐方式 */
+}
+
+/* 定义导航栏中logo的样式 */
+.navbar .logo {
+  width: 200px; /* 设置logo的宽度 */
+}
+
+/* 定义导航栏菜单的样式 */
+.navbar-menu {
+  display: flex; /* 使用弹性布局 */
+  list-style: none; /* 去除列表默认样式 */
+  gap: 20px; /* 子元素之间的间距 */
+  color: #c6825c; /* 设置文字颜色 */
+  font-size: 18px; /* 设置文字大小 */
+}
+
+/* 定义导航栏右侧内容的样式 */
+.navbar-right {
+  display: flex; /* 使用弹性布局 */
+  align-items: center; /* 子元素在交叉轴上的对齐方式 */
+  gap: 40px; /* 子元素之间的间距 */
+}
+
+/* 定义导航栏中所有按钮的样式 */
+.navbar button {
+  background: transparent; /* 设置背景透明 */
+  font-size: 16px; /* 设置文字大小 */
+  color: #8e4818; /* 设置文字颜色 */
+  border: 1px solid #c6825c; /* 设置边框样式 */
+  padding: 10px 30px; /* 设置内边距 */
+  border-radius: 50px; /* 设置边框圆角 */
+  cursor: pointer; /* 设置鼠标悬停时的光标样式 */
+  transition: 0.3s ease-in-out; /* 设置过渡效果 */
+}
+
+/* 定义导航栏中按钮悬停时的样式 */
+.navbar button:hover {
+  background-color: #ba8569; /* 设置背景颜色 */
+  color: white; /* 设置文字颜色 */
+}
+
+/* 定义导航栏中活动菜单项的样式 */
+.navbar .active {
+  padding-bottom: 2px; /* 设置底部内边距 */
+  border-bottom: 2px solid #8e4818; /* 设置底部边框样式 */
+}
+
+/* 定义导航栏中所有列表项的样式 */
+.navbar li {
+  cursor: pointer; /* 设置鼠标悬停时的光标样式 */
+}
+
+/* 定义导航栏中搜索图标的位置和样式 */
+.navbar-search-icon {
+  position: relative; /* 设置相对定位 */
+  cursor: pointer; /* 设置鼠标悬停时的光标样式 */
+}
+
+/* 定义导航栏中购物篮图标的位置和样式 */
+.navbar-basket-icon {
+  position: relative; /* 设置相对定位 */
+  cursor: pointer; /* 设置鼠标悬停时的光标样式 */
+}
+
+/* 定义导航栏中购物篮图标中的红点的样式 */
+.navbar-basket-icon .dot {
+  position: absolute; /* 设置绝对定位 */
+  min-width: 10px; /* 设置最小宽度 */
+  min-height: 10px; /* 设置最小高度 */
+  background-color: #c6825c; /* 设置背景颜色 */
+  border-radius: 5px; /* 设置边框圆角 */
+  top: -8px; /* 设置顶部偏移 */
+  right: -8px; /* 设置右侧偏移 */
+}
+
+/* 在屏幕宽度小于等于1050px时应用的样式 */
+@media (max-width: 1050px) {
+  .navbar .logo {
+    width: 140px; /* 设置logo的宽度 */
+  }
+  .navbar-menu {
+    gap: 20px; /* 设置子元素之间的间距 */
+    font-size: 17px; /* 设置文字大小 */
+  }
+  .navbar-right {
+    gap: 30px; /* 设置子元素之间的间距 */
+  }
+  .navbar-right img {
+    width: 22px; /* 设置图片宽度 */
+  }
+  .navbar-right button {
+    padding: 8px 25px; /* 设置内边距 */
+  }
+}
+
+/* 在屏幕宽度小于等于900px时应用的样式 */
+@media (max-width: 900px) {
+  .navbar .logo {
+    width: 120px; /* 设置logo的宽度 */
+  }
+  .navbar-menu {
+    gap: 15px; /* 设置子元素之间的间距 */
+    font-size: 16px; /* 设置文字大小 */
+  }
+  .navbar-right {
+    gap: 20px; /* 设置子元素之间的间距 */
+  }
+  .navbar-right img {
+    width: 20px; /* 设置图片宽度 */
+  }
+  .navbar-right button {
+    padding: 7px 20px; /* 设置内边距 */
+    font-size: 15px; /* 设置文字大小 */
+  }
+}
+
+/* 在屏幕宽度小于等于750px时应用的样式 */
+@media (max-width: 750px) {
+  .navbar-menu {
+    display: none; /* 隐藏菜单 */
+  }
+}
