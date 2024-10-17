@@ -22,7 +22,7 @@ Welcome to the Bakery Delivery Frontend! This project is a user-facing platform 
 
 ## Demo
 
-[![Demo website](bakery-delivery-frontend.vercel.app)]
+[![Demo website](https://bakery-delivery-frontend.vercel.app/)]
 
 ## Introduction
 
